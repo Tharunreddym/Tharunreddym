@@ -17,8 +17,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tharunrm/)
 [![Gmail](https://img.shields.io/badge/Gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tharunreddymopuru@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://tharun-reddy.vercel.app)
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 </div>
@@ -205,8 +203,6 @@ class EmbeddedEngineer:
 &nbsp;
 [![Email Me](https://img.shields.io/badge/Email_Me-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tharunreddymopuru@gmail.com)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/View_Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://tharun-reddy.vercel.app)
-
 <br/>
 
 </div>
