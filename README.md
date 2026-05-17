@@ -6,7 +6,7 @@
 <!-- ══════════════════════════ ANIMATED TYPING ══════════════════════════ -->
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2000&pause=600&color=00FFA3&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=160&lines=⚡+Firmware+Test+Engineer+%7C+HIL+Specialist;🔬+UART+%7C+SPI+%7C+I2C+%7C+CAN+Bus+Validation;🐍+Python+Automation+%7C+pytest+%7C+CI%2FCD;🚗+Automotive+Embedded+Systems+%7C+STM32)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2000&pause=600&color=00FFA3&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=160&lines=⚡+Firmware+Test+Engineer+%7C+HIL+Specialist;🔬+UART+%7C+SPI+%7C+I2C+%7C+CAN+Bus+%7C+UDS+Validation;🐍+Python+Automation+%7C+pytest+%7C+CI%2FCD;🚗+Automotive+Embedded+Systems+%7C+STM32+%7C+FreeRTOS)](https://git.io/typing-svg)
 
 <br/>
 
@@ -88,6 +88,8 @@ class EmbeddedEngineer:
 ![SPI](https://img.shields.io/badge/SPI-FF6B35?style=flat-square&logoColor=white)
 ![I2C](https://img.shields.io/badge/I2C-FF6B35?style=flat-square&logoColor=white)
 ![CAN Bus](https://img.shields.io/badge/CAN_Bus-E63946?style=flat-square&logoColor=white)
+![UDS](https://img.shields.io/badge/UDS-E63946?style=flat-square&logoColor=white)
+![ISO‑TP](https://img.shields.io/badge/ISO--TP-E63946?style=flat-square&logoColor=white)
 ![RS232](https://img.shields.io/badge/RS232-FF6B35?style=flat-square&logoColor=white)
 
 </td>
@@ -98,6 +100,7 @@ class EmbeddedEngineer:
 
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00427E?style=flat-square&logoColor=white)
+![AHT30](https://img.shields.io/badge/AHT30_Sensor-2D6A4F?style=flat-square&logoColor=white)
 ![Logic Analyzer](https://img.shields.io/badge/Logic_Analyzer-2D6A4F?style=flat-square&logoColor=white)
 ![Oscilloscope](https://img.shields.io/badge/Oscilloscope-1B4332?style=flat-square&logoColor=white)
 
@@ -109,6 +112,8 @@ class EmbeddedEngineer:
 
 ![pytest](https://img.shields.io/badge/pytest-00FFA3?style=flat-square&logo=pytest&logoColor=black)
 ![pyserial](https://img.shields.io/badge/pyserial-7B2FFF?style=flat-square&logoColor=white)
+![python-can](https://img.shields.io/badge/python--can-7B2FFF?style=flat-square&logoColor=white)
+![udsoncan](https://img.shields.io/badge/udsoncan-7B2FFF?style=flat-square&logoColor=white)
 ![Fault Injection](https://img.shields.io/badge/Fault_Injection-FF4757?style=flat-square&logoColor=white)
 ![HIL](https://img.shields.io/badge/HIL_Testing-F72585?style=flat-square&logoColor=white)
 
@@ -130,44 +135,58 @@ class EmbeddedEngineer:
 <tr>
 <td width="50%" valign="top">
 
-### 🔬 [HIL Validation Framework](https://github.com/Tharunreddym)
-> Automated Hardware-in-the-Loop test framework with fault injection, serial log parsing & CI/CD HTML reports
+### ⚙️ [FreeRTOS Deadline Validation](https://github.com/Tharunreddym/FreeRTOS-Deadline-Validation)
+> Real-time deadline validation on STM32 with FreeRTOS — producer/processor/monitor tasks, overload injection via B1 button, and Python HIL automation with **8/8 test cases passed**
 
-**Stack:** `STM32` `Python` `pytest` `pyserial` `UART` `GitHub Actions`
+**Stack:** `STM32` `FreeRTOS` `C` `Python` `pytest` `UART`
 
-![Type](https://img.shields.io/badge/Type-HIL_Framework-7B2FFF?style=flat-square)
+![Type](https://img.shields.io/badge/Type-RTOS_Validation-00427E?style=flat-square)
+![Tests](https://img.shields.io/badge/Tests-8%2F8_Passed-00FFA3?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
-### 📡 [CAN Bus Validation Suite](https://github.com/Tharunreddym)
-> CAN message validation with latency testing, invalid frame injection & dropped frame detection
+### 📡 [UDS Diagnostic Validation Suite](https://github.com/Tharunreddym/UDS-Diagnostic-Validation-Suite)
+> UDS diagnostic validation with python-can, ISO-TP, and udsoncan — threaded ECU simulator on virtual CAN bus with **28 pytest tests passed**
 
-**Stack:** `STM32` `MCP2515` `SocketCAN` `Python` `pytest`
+**Stack:** `python-can` `ISO-TP` `udsoncan` `CAN Bus` `pytest`
 
-![Type](https://img.shields.io/badge/Type-Protocol_Suite-E63946?style=flat-square)
+![Type](https://img.shields.io/badge/Type-UDS_Diagnostics-E63946?style=flat-square)
+![Tests](https://img.shields.io/badge/Tests-28_Passed-00FFA3?style=flat-square)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ [FreeRTOS Multi-Task Validator](https://github.com/Tharunreddym)
-> RTOS validation system for task scheduling, semaphores, watchdog recovery & timing correctness
+### 🔬 [Sensor-Based Embedded Validation](https://github.com/Tharunreddym/Sensor-Based-Embedded-Validation-System)
+> STM32 + AHT30 I2C sensor validation — temperature/humidity reads, SDA/SCL fault injection, recovery testing with **10/10 test cases passed**
 
-**Stack:** `STM32` `FreeRTOS` `Python` `pytest`
+**Stack:** `STM32` `Embedded C` `I2C` `UART` `AHT30`
 
-![Type](https://img.shields.io/badge/Type-RTOS_Validator-00427E?style=flat-square)
+![Type](https://img.shields.io/badge/Type-Sensor_Validation-2D6A4F?style=flat-square)
+![Tests](https://img.shields.io/badge/Tests-10%2F10_Passed-00FFA3?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
+
+### 🧪 [STM32 HIL-Style Validation Bench](https://github.com/Tharunreddym/STM32-HIL-Style-Validation-Bench)
+> Python automation HIL bench — live UART capture, log parsing, guided SDA/SCL fault injection, pytest regression with HTML/CSV/JSON reports
+
+**Stack:** `Python` `pyserial` `pytest` `UART` `HTML Reports`
+
+![Type](https://img.shields.io/badge/Type-HIL_Framework-7B2FFF?style=flat-square)
+![Tests](https://img.shields.io/badge/Tests-5_Passed-00FFA3?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" colspan="2" align="center">
 
 ### 🔭 More Coming Soon...
 > Always working on something new in the embedded validation space.
 
 ![Status](https://img.shields.io/badge/Status-🔮_In_Progress-9400D3?style=flat-square)
-
-<br/>
 
 > *"Test early. Test often. Test everything."*
 
@@ -179,12 +198,6 @@ class EmbeddedEngineer:
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ══════════════════════════ GITHUB STATS ══════════════════════════ -->
-
-<!-- ══════════════════════════ ACTIVITY GRAPH ══════════════════════════ -->
-
-
-<!-- ══════════════════════════ TROPHIES ══════════════════════════ -->
 
 
 <!-- ══════════════════════════ CONNECT ══════════════════════════ -->
@@ -194,8 +207,6 @@ class EmbeddedEngineer:
 <div align="center">
 
 <br/>
-
-> 🌍 **Open to Opportunities** — Cincinnati, OH 🇺🇸 &nbsp;|&nbsp; Open to Relocation 🌎
 
 <br/>
 
@@ -209,6 +220,13 @@ class EmbeddedEngineer:
 
 <br/>
 
+<!-- ══════════════════════════ VISITOR COUNTER ══════════════════════════ -->
+
+<div align="center">
+</div>
+
+<br/>
+
 <!-- ══════════════════════════ FOOTER ══════════════════════════ -->
 
 <div align="center">
@@ -217,4 +235,4 @@ class EmbeddedEngineer:
 
 </div>
 
-<!-- Made by Tharun R. Mopuru -->
+<!--Tharun R. Mopuru -->
