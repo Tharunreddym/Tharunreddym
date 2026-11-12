@@ -134,6 +134,10 @@ Built formal harnesses for five CPU pipeline units: hazard detection, forwarding
 
 `31 assertion checks` `18 cover properties` `5 prove tasks passed` `5 cover tasks passed`
 
+**UVM regression baseline**
+
+`20/20 seeds passed` `800 committed instructions` `0 scoreboard mismatches`
+
 <br/>
 
 ![Formal](https://img.shields.io/badge/Formal-SymbiYosys-00427E?style=flat-square)
