@@ -112,7 +112,6 @@ I am interested in Formal Verification, ASIC/SoC Design Verification, CPU and me
 
 </td>
 </tr>
-</table></tr>
 </table>
 
 </div>
@@ -332,35 +331,4 @@ class VerificationEngineer:
         "Low-Power Verification Engineer",
         "CPU and Memory-Subsystem Verification Engineer",
         "Embedded Validation Engineer"
-    ]
-```
-```python
-class VerificationAndValidationEngineer:
-    name = "Tharun R. Mopuru"
-    location = "Cincinnati, Ohio"
-    education = "Masters in Computer Engineering, University of Cincinnati"
-
-    asic_verification = [
-        "UVM testbench development",
-        "SystemVerilog assertions",
-        "Constrained random stimulus",
-        "Scoreboards and reference models",
-        "Functional coverage",
-        "Regression debug"
-    ]
-
-    embedded_validation = [
-        "Firmware validation",
-        "Protocol debugging",
-        "STM32 and FreeRTOS testing",
-        "UART SPI I2C CAN validation",
-        "Python automation",
-        "HIL style test flows"
-    ]
-
-    target_roles = [
-        "ASIC Verification Engineer",
-        "Design Verification Engineer",
-        "Embedded Validation Engineer",
-        "Firmware Test Engineer"
     ]
